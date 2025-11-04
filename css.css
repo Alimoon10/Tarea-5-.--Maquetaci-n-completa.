@@ -1,0 +1,343 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 24px;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.ancho{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.ancho_2{
+    max-width: 1000px;
+    margin:auto;
+}
+
+
+
+
+
+.rosa_cabezera{
+    background: #ff3281;
+    width: 1200px;
+    height: 25px;
+    justify-content: center;
+}
+
+
+
+
+
+.cabezera_dos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.redes{
+    align-items: center; 
+}
+
+.face{
+
+}
+
+.insta{
+     margin-left: 10px;
+}
+
+.tt{
+     margin-left: 10px;
+}
+
+
+
+
+
+.cuadro_negro{
+    border: black solid 3px;
+    margin-bottom: 40px;
+    padding: 10px;
+
+}
+
+.cuadro_negro a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 130px;
+}
+
+
+
+
+
+
+.img_fondo{
+background: url('imagenes/fondopiedras.jpg') center/cover no-repeat;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  
+}
+
+
+.img_fondo h2{
+    color: azure;
+}
+
+
+.img_fondo p{
+    color: azure;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+
+
+
+
+
+
+.botones button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #ff3281;
+    background-color: #ff3281;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+}
+
+.botones button:hover {
+    background-color: transparent; 
+    color: #ff3281;
+}
+ 
+
+
+
+
+
+
+.prod {
+    font-size: 0; 
+}
+
+.texto_pro {
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    font-size: 20px;
+}
+
+.texto_pro h3 {
+    margin-bottom: 15px; 
+}
+
+.texto_pro p {
+    margin-bottom: 10px; 
+}
+
+.img_derecho {
+    display: inline-block;
+    vertical-align: top;
+    width: 38%;
+}
+
+.img_derecho img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.text_tal {
+    font-size: 20px;
+    background-color: #fff9f1;
+    padding: 20px;
+}
+
+.text_tal h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.fila_inline {
+    font-size: 0;  
+}
+
+.foto_izquierda {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;    
+}
+
+.foto_izquierda img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.text_derecho {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;     
+    font-size: 16px; 
+    margin-left: 5%; 
+    padding-bottom: 50px;
+}
+
+
+.text_derecho p{
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+.finfin{
+    display: flex; 
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+.text_promo{
+    margin-top: 30px;
+    flex: 1;
+    
+}
+
+.telefono {
+    color:#ff3281; 
+    font-weight: bold; 
+}
+
+
+.video_promo{
+
+}
+
+
+.video_promo h2{
+    margin-top: 30px;
+    flex: 1;
+    
+}
+
+
+
+
+
+
+
+
+.formulario {
+    border: 3px solid #ff3281;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;      
+}
+
+.formulario label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+.color_fondo {
+    background-color: #fff9f1;
+    height: 200px;
+    white-space: nowrap; 
+}
+
+.color_fondo > div {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.color_fondo img {
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.anotacion {
+    margin-left: 700px;     
+    color: #ff3281; 
+}
+
+
+
+
+
+
+
+
+.cont_abajo{
+    background: #ff3281;
+    width: 1200px;
+    height: 25px;
+    justify-content: center;
+}

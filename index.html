@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA2</title>
+     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+
+
+    <div class="rosa_cabezera ancho">
+
+    </div>
+
+
+
+
+    <div class="cabezera_dos ancho_2">
+
+        <div>
+            <img src="imagenes/logocabecera.jpg" alt="">
+        </div>
+
+        <div class="redes">
+            <img class="face" src="imagenes/icono_facebook.jpg" alt=""> <img class="insta" src="imagenes/icono_instagram.jpg" alt=""> <img class="tt" src="imagenes/icono_twitter.jpg" alt="">
+        </div>
+        
+    </div>
+
+
+
+
+
+
+    <div class="cuadro_negro ancho_2">
+        <a href="#">GALERIA</a>
+        <a href="#">PRECIOS</a>
+        <a href="#">CONTACTANOS</a>
+        <a href="#">EQUIPO</a>
+    </div>
+
+
+
+
+
+
+
+    <div class="img_fondo ancho">
+
+            <h2>PROMOCIONES DE MARZO</h2>
+            
+            <p class="justificar">Se acerca la epoca de playa y por eso preparamos estas dos
+                <br>promociones para ti.</p>
+
+
+        <div class="botones">
+            <button type="button">Solicitar promocion</button>
+            <button type="button">ver Video</button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="prod ancho_2">
+
+        <div class="texto_pro">
+            <h3>Los productos Science of Beauty</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam reiciendis dignissimos nemo
+                <br> odio quos itaque cumque, obcaecati doloribus nulla exercitationem, repudiandae culpa quasi? 
+                <br>Quibusdam neque a nulla inventore voluptatibus!</p>
+        </div>
+
+
+        <div class="img_derecho">
+            <img src="imagenes/fotovelas.jpg" alt="">
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="text_tal ancho">
+        <h3>Buscamos talento para integrarlos a nuestro equipo</h3>
+
+        <div class="fila_inline">
+            <div class="foto_izquierda">
+                <img src="imagenes/fotoaromatizante.jpg" alt="">
+            </div>
+
+            <div class="text_derecho">
+                <h4 class="sep">Puesto de trabajo para Recepcionista</h4>
+
+                <p class="uno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corrupti commodi at, accusamus possimus enim debitis optio ducimus vero. Similique, dignissimos necessitatibus nemo odio adipisci officia expedita maxime maiores modi?</p>
+            
+                <h4>Puesto de trabajo para Masajista</h4>
+                
+                <p class="dos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis natus ipsum dolore. Dolorum, iste at, facere necessitatibus unde quo aperiam earum vero a impedit laudantium architecto culpa suscipit iure ipsa!</p>
+                
+                <h4>Puesto de trabajo para Nutriologo</h4>
+            
+                <p class="tres">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eveniet at facilis dolor neque dolorem laudantium ducimus aspernatur hic, ex illum obcaecati voluptate amet mollitia atque deserunt, maxime accusamus nisi!</p>
+           
+            </div>
+        
+        </div>
+   
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="finfin ancho_2">
+
+    <div class="text_promo">
+        <h2>
+            Recibe promociones y noticias
+            <br> de SPA SALON
+        </h2>
+
+        <p>
+            Un lugar para consentirte de pies a cabeza
+            <br>Servicio de salon estetica y Spa personalizado
+        </p>
+
+       <p><span class="telefono">TELEFONO</span>: 999 420 8871</p>
+
+        <p><span class="telefono">CORREO</span>: Info@spasalon.com</p>
+        
+        <div class="formulario">
+            <label for="email">Tu dirección de correo electrónico</label>
+            <input type="email" id="email" placeholder="tunombre@example.com">
+            <button type="button">Enviar</button>
+        </div>
+    </div>
+
+    <div class="video_promo">
+
+        <h2>Nuestras instalaciones</h2>
+        
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/w4qaODLR_Xg" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+        
+        </iframe>
+    </div>
+
+</div>
+
+
+
+
+<script>
+    const boton = document.querySelector('.formulario button');
+    const inputEmail = document.getElementById('email');
+
+    boton.addEventListener('click', function() {
+        const email = inputEmail.value.trim();
+
+        
+        if (email === "") {
+            alert("Por favor ingresa tu correo.");
+            return;
+        }
+
+       
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            alert("Por favor ingresa un correo válido.");
+            return;
+        }
+
+       
+        console.log("Correo enviado: " + email);
+        alert("Correo enviado correctamente: " + email);
+
+        
+        inputEmail.value = "";
+    });
+</script>
+
+
+
+
+
+<div class="color_fondo ancho">
+    <div>
+        <img src="imagenes/logo_spa.png" alt="">
+    </div>
+
+
+    <div class="anotacion">
+        <h3>Monstserrat Jimenez Pat</h3>
+        <h3>Programacion Web</h3>
+        <h3>7sb</h3>
+    </div>
+
+</div>
+
+
+
+<div class="cont_abajo ancho">
+
+</div>
+
+    
+</body>
+</html>
